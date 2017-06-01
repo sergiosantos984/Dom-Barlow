@@ -116,7 +116,10 @@ ul p{
 	float:left;
 	margin:2%;
 	color:#303030;
+
 }
+
+.portfolio{margin-top:5%;}
 .foot{position: fixed;}
 
 img.desaturate {
