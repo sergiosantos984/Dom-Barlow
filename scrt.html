@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Dom BarloW | CopyWriter</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link rel="stylesheet" href="blueberry.css" />
+  <link href="style.css" rel="stylesheet">
+  <link href="responsive.css" rel="stylesheet">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<style type="text/css">
+#doc { margin: 40px 0; }
+#content {
+  margin: 0 auto;}
+
+  .blueberry { max-width: 960px; }
+
+
+.blueberry { margin: 0 auto; position: relative;}
+.blueberry ul { padding: 0px; margin: 0px; list-style-type: none; }
+
+.slidernav {
+display: block;
+position: absolute;
+height: 41px;
+width:32px;
+overflow: hidden;
+cursor: pointer;
+top:40%;
+z-index: 100000;
+}
+
+.arrow_left {
+left:12px;
+}
+.arrow_right {
+right:12px;
+}
+
+
+
+</style>
+
+
+
+
+
+
+</head>
+
+<body>
+<header>
+<nav>
+
+
+<ul>
+	<li><a href="Index.html">Home</a></li>
+	<li><a href="Portfolio.html">Portfolio</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+  </header>
+<div id="doc">
+<div id="content">
+<div class="blueberry">
+  <ul class="slides">
+      <li>
+      <img src="images/scrt/scrt.png" >
+      </li>
+
+      <li>
+      <img src="images/scrt/scrt1.jpg" >
+      </li>
+
+      <li>
+      <img src="images/scrt/scrt2.jpg" >
+      </li>
+
+
+      <li>
+      <img src="images/scrt/scrt3.jpg" >
+      </li>
+  
+      <li>
+      <img src="images/scrt/scrt4.jpg" >
+      </li>
+
+      <li>
+      <img src="images/scrt/scrt5.jpg" >
+      </li> 
+
+      <li>
+      <img src="images/scrt/scrt6.jpg" >
+      </li> 
+  
+</ul>
+<!-- Optional, see options below -->
+</div>
+
+</div>
+
+
+
+
+</div>
+<br>
+
+
+
+
+<footer >
+<p>&copy; 2017 Dom BarloW.</p>
+ </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+ <script src="app.js"></script>
+ <script src="jquery.blueberry.js"></script>
+
+<script>
+$(window).load(function() {
+$('.blueberry').blueberry({ pager: false, lineheight: 0, arrows: true});
+});
+</script>
+
+</body>
+</html>

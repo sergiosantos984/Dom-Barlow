@@ -1,0 +1,127 @@
+body{
+	font-family: 'Dosis', sans-serif;
+	margin: 0;
+	padding:0;
+	height: 100vh;
+    background-color:white;
+	background-size: cover;
+	width: 100%;
+}
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+	background-color: white;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav ul li {
+	margin-top: 10px;
+	border-left: 1px solid #303030;
+	border-right: 1px solid #303030;
+}
+
+nav li:hover {
+	background-color: #8692A0;
+	color:white;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+	text-decoration: none;
+}
+
+
+nav a{
+	color: #303030;
+}
+
+.selected{background-color: #D4D9D2;}
+
+#Profile{
+	position:inline-block;
+	text-align: center;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	color:#303030;}
+.prof {
+	border-radius: 50%;
+}
+	
+.description{
+	width:90%;
+	display:block;
+}
+.blocktext {
+font-size:18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    width: 15em;
+	text-align:center;
+
+}
+
+.about{
+	margin-left: auto;
+    margin-right: auto;
+} 
+.about img{width: 50%;
+    }
+footer {
+padding-top: 10%;
+	width:100%;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color:#303030;
+}
+
+footer p{
+	text-align: center;
+	margin-bottom: 0;}
+
+
+/*portfolio*/
+.wrapper{width:80%;
+margin-left: auto;
+	margin-right: auto;}
+.wrapper ul{
+	width:100%;
+	list-style: none;
+	text-align: center;
+	color:#334149;
+}
+
+ul p{
+	color:#9EABBC;
+}
+/*contact*/
+.secound ul{border-left: solid 2px #303030;}
+#contact li a{
+	text-decoration: none;
+	list-style: none;
+	display:inline-block;
+	float:left;
+	margin:2%;
+	color:#303030;
+}
+.foot{position: fixed;}
+
+img.desaturate {
+	filter: grayscale(100%);
+}
+
+img.desaturate:hover{filter: grayscale(0%);}
+

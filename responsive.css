@@ -1,0 +1,76 @@
+/*tablet device*/
+
+@media screen and (min-width: 768px) {
+	/*header*/
+	nav li {
+		display: inline;
+		margin-left: 20px;
+	}
+  .wrapper{
+  	width:80%;
+  	margin-right: auto;
+  	margin-left: auto;
+  }
+
+  .wrapper ul{
+  	width:40%;
+  	display:inline-block;
+  	margin-right: auto;
+  	margin-left: auto;
+  }
+
+  #profile{
+  	width:50%;
+  	display: inline-block;
+  	text-align: center;
+  	margin-right: auto;
+  	margin-left: auto;
+  }
+  .prof{border-radius: 50%;}
+ .first {
+ 	width:45%;
+ 	float:left;
+ }
+ .secound{
+ 	width:45%;
+ 	float:right;
+ }
+
+ .about{
+  display: inline-block;
+  width:50%;
+  float:left;
+ }
+
+  .background{
+    display: inline-block;
+  width:50%;
+  float:right;
+ }
+ #content{
+    width:45%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto; }
+}
+
+/*large screen device*/
+
+@media only screen and (min-width: 1024px) {
+
+  .wrapper ul{
+  	width:20%;
+  	display:inline-block;
+  	margin-right: auto;
+  	margin-left: auto;
+  }
+	nav {
+		
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: center;
+		width: 100%;
+	}
+
+}
+	
